@@ -1,16 +1,18 @@
-# transaction_app
+# My Flutter Transaction App
 
-A new Flutter project.
+Welcome to My Flutter Transaction App! This simple Flutter application allows users to add and manage transactions with transaction names and dates.
+
+## Features
+
+- Add transactions with names and dates
+- View a list of all transactions
+- Edit or delete existing transactions
+- Simple and user-friendly interface
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with the app, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/abhipawar2004/your-flutter-transaction-app.git
