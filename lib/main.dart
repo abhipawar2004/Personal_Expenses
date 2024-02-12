@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
       amount: txAmount,
       date: choosenDate,
     );
-
+//calling setState 
     setState(
       () {
         _usertransaction.add(newTx);
