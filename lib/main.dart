@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
       },
     );
   }
-// funtion for deleting the transaction 
+// function for deleting the transaction 
   void _deleteTransaction(String id) {
     setState(() {
       _usertransaction.removeWhere((tx) => tx.id == id);
@@ -94,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // creating a Appbar
     final appbar = AppBar(
       backgroundColor: Colors.pink.shade600,
       centerTitle: true,
