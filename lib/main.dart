@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
       amount: txAmount,
       date: choosenDate,
     );
-//calling setState 
+    //calling setState 
     setState(
       () {
         _usertransaction.add(newTx);
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
       },
     );
   }
-
+// funtion for deleting the transaction 
   void _deleteTransaction(String id) {
     setState(() {
       _usertransaction.removeWhere((tx) => tx.id == id);
