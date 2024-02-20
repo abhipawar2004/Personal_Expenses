@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Icon(
             Icons.add,
             color: Colors.pink,
-          ),
+          ),//Icon
         ),
         body: SingleChildScrollView(
           child: Column(
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ),
-      ),
+      ),//Scaffold
     );//SafeArea
   }
 }
