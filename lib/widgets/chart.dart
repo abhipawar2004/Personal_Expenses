@@ -65,7 +65,7 @@ class Chart extends StatelessWidget {
             );
           }).toList(),
         ),
-      ),
+      ),//Padding
     );//Card
   }
 }
