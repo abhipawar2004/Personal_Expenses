@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
-
+//import model package
 import '../models/transactions.dart';
 
 class TransactionList extends StatelessWidget {
@@ -64,7 +64,7 @@ class TransactionList extends StatelessWidget {
                         icon: Icon(
                           Icons.delete,
                           color: Colors.red.shade500,
-                        )),
+                        ),),
                   ),
                 );
               },
